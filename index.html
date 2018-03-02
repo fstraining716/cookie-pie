@@ -55,6 +55,8 @@ window['_fs_namespace'] = 'FS';
 		
 		console.log(form_name);
 		console.log(form_email);
+
+		FS.identify(email_var, {"displayName": name_var, "email": email_var});
 		
 		//do something else with the name and email here...
 	}
